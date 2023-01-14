@@ -1,6 +1,6 @@
 # auto install
 
-Script autonomo de preparação a downloads e configuração de linguagem de programação em distribuição linux. 
+Script autonomo de preparação a downloads e configuração de linguagem de programação em distribuição baseada no kenel linux. 
 
 ```
   Linguagens Disponiveis
