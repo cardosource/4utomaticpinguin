@@ -1,6 +1,8 @@
 # auto install <4utomaticpinguin>
 
-Script autonomo de preparação a downloads e configuração de linguagem de programação em distribuição baseada no kenel linux. 
+Script autonomo de preparação a downloads e configuração de linguagem de programação em distribuição baseada no kenel linux.       
+Gerenciador de pacotes:        
+`Arch User Repository (AUR)`
 
 ```
   Linguagens Disponiveis
