@@ -2,7 +2,8 @@
 
 Script autonomo de preparação a downloads e configuração de linguagem de programação em distribuição baseada no kenel linux.       
 Testado e desenvolvido com base no erenciador de pacotes:        
-`Arch User Repository (AUR)`
+`Arch User Repository (AUR)`                        
+`Debian apt (Advanced Package Tool).`
 
 ```
   Linguagens Disponiveis
