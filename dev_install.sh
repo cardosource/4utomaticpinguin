@@ -16,6 +16,7 @@ declare -a nodeJs
 declare -a downloads
 downloads[0]="https://nodejs.org/dist/v18.13.0/node-v18.13.0-linux-x64.tar.xz" # Stable Releases
 
+
 # baixar arquivos.
 for ((i = 0; i < ${#downloads[@]}; i++)); do
   echo "[ $i ] - Baixando: ${downloads[i]}"
