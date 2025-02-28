@@ -1,7 +1,7 @@
 # auto install <4utomaticpinguin>
 
 Script autonomo para downloads preparação a configuração  em distribuição baseada no kenel linux.    
-Testado e desenvolvido levando em consideração dois gerenciadores de pacotes específicos:       
+Desenvolvido e testado para funcionar de forma eficiente em sistemas que utilizam dois dos principais gerenciadores de pacotes:
 
 `Arch User Repository (AUR)`  repositório de pacotes mantido pela comunidade para usuários do Arch Linux e suas variantes.
 
