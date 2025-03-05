@@ -29,7 +29,6 @@ if ls /tmp/temp/*.tar.xz > /dev/null 2>&1; then
 fi
 
 sleep 5
-
 # movendo arquivo
 for dir in /tmp/temp/*; do
   export package=${dir:10}
