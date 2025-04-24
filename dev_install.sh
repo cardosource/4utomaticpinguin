@@ -1,13 +1,24 @@
 #!/bin/bash
-# - Script para instalar Node.js
+# - Script para instalar Node.js no Docker
 # 1 - baixar da página oficial
 # 2 - descompactar
 # 3 - configurar
 
-if [ -n "$SUDO_USER" ]; then
-  usuario=$SUDO_USER
+
+if [ -f /.dockerenv ]; then
+       echo "[ !!! ] workstation docker"
+
+    env_file="/etc/profile"
+    usuario="root"
 else
-  usuario=$USER
+    if [ -n "$SUDO_USER" ]; then
+        usuario=$SUDO_USER
+
+    else
+       echo "[ !!! ] workstation  fisico"
+        usuario=$USER
+    fi
+    env_file="/home/$usuario/.bashrc"
 fi
 
 declare -a nodeJs
@@ -39,19 +50,19 @@ done
 rm -rf /tmp/temp/
 
 sleep 10
-echo "Configurando variaveis de ambiente"
+
 for lCal in /usr/local/bin/*; do
   pasta=${lCal:15:30}
   pasta=${pasta%%*( )}
   if [ "$pasta" = "$package" ]; then
    sleep 5
-    echo "#NodeJs setup dev" >> /home/$usuario/.bashrc
-    echo "export NODEJS_HOME=/usr/local/bin/$package" >> /home/$usuario/.bashrc
-    echo 'export PATH=$PATH:$NODEJS_HOME/bin' >> /home/$usuario/.bashrc
+    echo "#NodeJs setup dev" >> "$env_file"
+    echo "export NODEJS_HOME=/usr/local/bin/$package" >> "$env_file"
+    echo 'export PATH=$PATH:$NODEJS_HOME/bin' >> "$env_file"
    sleep 5
   fi
 done
 
-source /home/$usuario/.bashrc
+source "$env_file"
 
 echo "$package Instalado com sucesso"
