@@ -5,8 +5,8 @@ Desenvolvido e testado para funcionar de forma eficiente em sistemas que utiliza
 
 
 
-> inclui auxílio à execução em contêineres Docker, permitindo
->  orquestrar automaticamente instalações e configurações em ambientes isolados
+> inclui auxílio à execução em contêineres Docker, 
+
 
 
 
