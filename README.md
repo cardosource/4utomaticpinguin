@@ -3,6 +3,13 @@
 Script autonomo para downloads preparação a configuração  em distribuição baseada no kenel linux.    
 Desenvolvido e testado para funcionar de forma eficiente em sistemas que utilizam dois dos principais gerenciadores de pacotes:
 
+
+
+> inclui auxílio à execução em contêineres Docker, permitindo
+>  orquestrar automaticamente instalações e configurações em ambientes isolados
+
+
+
 `Arch User Repository (AUR)`  repositório de pacotes mantido pela comunidade para usuários do Arch Linux e suas variantes.
 
 
@@ -12,6 +19,10 @@ Desenvolvido e testado para funcionar de forma eficiente em sistemas que utiliza
 ```
   Linguagens Disponiveis
 ```
+
+
+
+
 
 | Linguagem   | versão       | Pagina Oficial                           |
 | :---------- | :--------- | :---------------------------------- |
