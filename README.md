@@ -5,8 +5,7 @@ Desenvolvido e testado para funcionar de forma eficiente em sistemas que utiliza
 
 
 
-> inclui auxílio à execução em contêineres Docker, 
-
+>  inclui auxílio à execução em contêineres Docker, 
 
 
 
