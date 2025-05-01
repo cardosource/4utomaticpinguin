@@ -4,7 +4,6 @@ Script autonomo para downloads preparação a configuração  em distribuição 
 Desenvolvido e testado para funcionar de forma eficiente em sistemas que utilizam dois dos principais gerenciadores de pacotes:
 
 
-
 >  inclui auxílio à execução em contêineres Docker, 
 
 
@@ -31,3 +30,5 @@ Desenvolvido e testado para funcionar de forma eficiente em sistemas que utiliza
 ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=Docker&logoColor=white)
 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+​​​​​​​​​​​​​​
+
